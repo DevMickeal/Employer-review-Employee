@@ -147,6 +147,80 @@ body {
 }
 /* END OF MAIN REVIEW STYLES */
 
+
+/* MODAL styles */
+.modal-content{
+  width: 650px;
+  height: 635px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 1px 2px 4px rgba(214, 217, 223, 0.5);
+  border-radius: 5px;
+  padding: 10px 30px;
+  }
+  .modal-content .close-modal{
+    outline: none;
+    text-align: right;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #00AEFF;
+    cursor: pointer;
+  }
+  .modal-content .modal-body .Rev-emp{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #084482;
+    margin-bottom: 50px;
+  }
+  .modal-content .modal-body .submit-btn {
+    width: 238px;
+    height: 59px;
+    background: #33BEFF;
+    margin: 50px;
+    color: #fff;
+    padding: .8rem 4rem;
+    border-radius: 5px;
+  }
+  .modal-content .modal-body .submit-btn:hover{
+    background-color: #337AB7;
+    color: #fff;
+  }
+  
+  .form-group .emp-name{
+    width: 493px;
+    height: 56px;
+    border: 2px solid #B5B5B5;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: none !important;
+  }
+  .form-group{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .form-group .write{
+    width: 493px;
+    height: 246px;
+    border: 2px solid #B5B5B5;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-sizing: none !important;
+    padding-top: 30px;
+  }
+  
+  .form-group .write:hover, .form-group .emp-name:hover{
+    border: 2px solid #337AB7;
+    box-shadow: none !important;
+  }
+  
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 991px) {
   .body-cont{

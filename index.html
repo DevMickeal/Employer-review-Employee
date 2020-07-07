@@ -116,8 +116,34 @@
                 <div class="col-md-7 col-lg-8">
                     <div class="reviews-header d-flex justify-content-between align-items-baseline mb-4">
                         <h4 class="num-of-review">Reviews (3)</h4>
-                        <a href="#" class="write-review"><i class="fa fa-pencil mr-2"></i> Write Review</a>
+                        <a href="#" data-toggle="modal" data-target="#reviewmodal" class="write-review"><i class="fa fa-pencil mr-2"></i> Write Review</a>
                     </div>
+                    <div class="modal fade" id="reviewmodal" tabindex="-1" role="dialog"
+                        aria-labelledby="reviewmodalTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close-modal" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true"><i class="fa fa-close"></i></span>
+                            </button>
+                            <div class="modal-body">
+                                <h5 class="Rev-emp text-center">Review Employee</h5>
+                                <form>
+                                    <div class="form-group">
+                                      <input type="text" class="form-control emp-name" id="exampleFormControlInput1" placeholder="Employer's name">
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <textarea class="form-control write" id="exampleFormControlTextarea1" rows="3" placeholder="Write Review"></textarea>
+                                    </div>
+                                    <div class="verify text-center">
+                                        <button type="submit" class="btn submit-btn text-center">Submit</button>
+                                    </div>  
+                                   
+                                  </form>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
                     <div class="reviews-body">
                         <div class="single-review">
                             <div class="media">
